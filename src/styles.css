@@ -1,12 +1,3 @@
-body {
-    background-color: rebeccapurple;
-}
-
-ul {
-    list-style: none;
-    color: white;
-}
-
-ul li a {
-    color: white;
+.blue {
+    background-color: blue;
 }
