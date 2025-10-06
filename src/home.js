@@ -1,6 +1,7 @@
  function createHome () {
     const container = document.querySelector("#content");
     const div = document.createElement("div");
+    div.classList.add('home')
     div.classList.add("home_div");
     const heading = document.createElement("h1");
     const para = document. createElement("p");
