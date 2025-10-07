@@ -2,9 +2,97 @@
     background-color: blue;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav button {
+        font-size: 20px;
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
 .home {
     background: url("./banner-bg.png");
     color: white;
     background-size: cover;
     height: 100vh;
+    font-size: 30px;
+}
+
+.home * {
+    margin-left: 100px;
+    
+}
+
+.cta,
+.abt_btn {
+    font-size: 20px;
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+}
+p {
+    width: clamp(35ch, 50%, 75ch);
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    grid-gap: 20px;
+
+    gap: 20px;
+    flex-basis:50%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    width: 250px;
+}
+
+.items p,
+.items h3,
+.items button {
+    margin: 10px;
+}
+
+.items button {
+    width: 100px;
+    align-self: center;
+    font-size: 20px;
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items p {
+    align-self: center;
+}
+
+.items img {
+    border-radius: 10px;
 }

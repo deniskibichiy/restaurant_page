@@ -1,12 +1,15 @@
  function createHome () {
     const container = document.querySelector("#content");
     const div = document.createElement("div");
+    //container.classList.add("banner")
     div.classList.add('home')
     div.classList.add("home_div");
     const heading = document.createElement("h1");
     const para = document. createElement("p");
     const cta_btn = document.createElement("button");
+    cta_btn.classList.add("cta")
     const about_btn = document.createElement("button");
+    about_btn.classList.add("abt_btn")
     heading.textContent = "Samosa Shop";
     para.textContent = "More or less, you may want to deligh in our world-class samosa's.";
     cta_btn.textContent = "Call Now";
