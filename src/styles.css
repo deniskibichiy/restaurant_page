@@ -33,12 +33,14 @@ nav button {
 .abt_btn {
     font-size: 20px;
     margin: 10px;
-    width: 100px;
+    width: 150px;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
+
 
 .cta {
     background-color: red;
@@ -92,4 +94,22 @@ p {
 
 .items img {
     border-radius: 10px;
+}
+
+.about_container {
+    display: flex;
+}
+
+.about_container div {
+    width: 50%;
+    height: 70vh;
+}
+
+.about_container img {
+    height: 400px;
+}
+.about_container p {
+    width: clamp(45ch, 70%, 75ch);
+    font-size: 20px;
+
 }
