@@ -106,10 +106,10 @@ p {
 }
 
 .about_container img {
-    height: 400px;
+    height: 500px;
 }
 .about_container p {
-    width: clamp(45ch, 70%, 75ch);
-    font-size: 20px;
+    width: clamp(50ch, 70%, 75ch);
+    font-size: 21px;
 
 }
